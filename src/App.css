@@ -16,3 +16,7 @@
     border-top: 5px solid #06D001;
     width: 150px;
 }
+.card{
+   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
