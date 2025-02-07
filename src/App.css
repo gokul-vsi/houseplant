@@ -20,3 +20,13 @@
    
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.fea-all{
+    border: 1px solid #ccc;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.icons-fea{
+    color: #3E7B27;
+}

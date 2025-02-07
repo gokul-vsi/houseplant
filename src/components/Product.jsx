@@ -9,6 +9,12 @@ import image7 from '../images/img08.jpg'
 import image8 from '../images/img09.jpg'
 import image9 from '../images/img10.jpg'
 import image10 from '../images/img11.jpg'
+import { FaTruck } from "react-icons/fa";
+import { FaGift } from "react-icons/fa6";
+import { HiOutlineArrowUturnRight } from "react-icons/hi2";
+import { IoMdCall } from "react-icons/io";
+import ad from '../images/ad1.jpg'
+import ad2 from '../images/ad2.jpg'
 
 
 export const Product = () => {
@@ -71,6 +77,47 @@ export const Product = () => {
               <img src={image10} className='mt-4 w-52 mx-auto' alt="" />
               <p className='text-center mt-3'>Pellentesque aliquet</p>
               <p className='text-center font-bold mb-2'>80.00 $</p>
+            </div>
+          </div>
+        </div>
+        <div className="container mx-auto px-5 mt-24 mb-5">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
+            <div className="feature1 fea-all flex flex-col md:flex-row gap-4 p-4">
+            <FaTruck className='icons-fea text-5xl flex justify-center items-center mx-auto md:justify-start' /> 
+            <div className="flex flex-col md:me-5">
+              <p className='font-bold text-center md:text-start'>Free Shipping Order</p>
+              <p className='text-center md:text-start'>On orders over $100</p>
+            </div>
+            </div>
+            <div className="feature2 fea-all flex flex-col md:flex-row gap-4 p-4">
+            <FaGift className='icons-fea text-5xl flex justify-center items-center mx-auto md:justify-start' /> 
+            <div className="flex flex-col md:me-5">
+              <p className='font-bold text-center md:text-start'>Special gift card</p>
+              <p className='text-center md:text-start'>The perfect gift idea</p>
+            </div></div>
+            <div className="feature3 fea-all flex flex-col md:flex-row gap-4 p-4">
+            <HiOutlineArrowUturnRight className='icons-fea text-5xl flex justify-center items-center mx-auto md:justify-start' /> 
+            <div className="flex flex-col">
+              <p className='font-bold text-center md:text-start'>Return & exchange</p>
+              <p className='text-center md:text-start'>Free return within 3 days</p>
+            </div>
+            </div>
+            <div className="feature4 fea-all flex flex-col md:flex-row gap-4 p-4">
+            <IoMdCall className='icons-fea text-5xl flex justify-center items-center mx-auto md:justify-start' /> 
+            <div className="flex flex-col md:me-7">
+              <p className='font-bold text-center md:text-start'>Support 24 / 7</p>
+              <p className='text-center md:text-start'>Customer support</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div className="container mx-auto px-5 mb-5 mt-16">
+          <div className="flex gap-1 md:ms-7">
+            <div className="w-1/2">
+               <img src={ad} alt="" />
+            </div>
+            <div className="w-1/2">
+             <img src={ad2} alt="" />
             </div>
           </div>
         </div>
