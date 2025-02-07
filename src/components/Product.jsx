@@ -81,7 +81,7 @@ export const Product = () => {
           </div>
         </div>
         <div className="container mx-auto px-5 mt-24 mb-5">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
             <div className="feature1 fea-all flex flex-col md:flex-row gap-4 p-4">
             <FaTruck className='icons-fea text-5xl flex justify-center items-center mx-auto md:justify-start' /> 
             <div className="flex flex-col md:me-5">
@@ -112,7 +112,7 @@ export const Product = () => {
           </div>
         </div>
         <div className="container mx-auto px-5 mb-5 mt-16">
-          <div className="flex gap-1 md:ms-7">
+          <div className="flex  gap-1 md:ms-7">
             <div className="w-1/2">
                <img src={ad} alt="" />
             </div>

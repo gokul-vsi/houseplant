@@ -7,6 +7,7 @@ import { PiPlantFill } from "react-icons/pi";
 import { RiPlantFill } from "react-icons/ri";
 import { LuTreePalm } from "react-icons/lu";
 import { Product } from './Product'
+import { Footers } from './Footers'
 
 export const Home = () => {
   return (
@@ -34,7 +35,7 @@ export const Home = () => {
               </div>
               <div className="md:w-1/2 text-center md:text-left">
               <h1 className='text-3xl md:text-4xl font-bold mt-6'>Why Choose Us ?</h1>
-              <div className="plain-line mt-5 ms-5 md:ms-0"></div>
+              <div className="plain-line mt-5 ms-28 md:ms-0"></div>
               <p className='text-justify mt-5'>Lorem ipsum is simply dummy text of the printing and typesetting industry, lorem ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley ... <span style={{color:'#06D001'}}>Learn More</span></p>
               <div className='mt-10  flex gap-5 flex-col md:flex-row'>
               <PiPlantFill  className='text-8xl flex justify-center mx-auto items-center md:justify-start ' style={{color:'#3E7B27'}}  />
@@ -69,6 +70,7 @@ export const Home = () => {
           </div>
         </div>
         <Product/>
+        <Footers/>
     </div>
   )
 }
